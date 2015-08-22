@@ -1,4 +1,10 @@
+---doxx---
 
+extension: yml
+basename: .travis
+verbatim: true
+
+---doxx---
 language: java
 script: mvn test
 jdk:
