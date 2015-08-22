@@ -1,1 +1,13 @@
+---doxx---
 
+extension: yml
+basename: .travis
+verbatim: true
+
+---doxx---
+language: java
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+  - openjdk7
+  - openjdk6
