@@ -5,7 +5,29 @@
  */
 package com.mertics.tavis;
 
-
 public class ClassA {
-    
+
+    private String myString;
+
+    public ClassA() {
+
+    }
+
+    public ClassA(String myString) {
+        this.myString = myString;
+    }
+
+    public String getMyString() {
+        return myString;
+    }
+
+    public void setMyString(String myString) {
+        this.myString = myString;
+    }
+
+    public String appendString(String newString) {
+
+        this.myString = this.myString.concat(newString);
+        return this.myString;
+    }
 }
