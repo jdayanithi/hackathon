@@ -28,6 +28,8 @@ public class ClassA {
     public String appendString(String newString) {
 
         this.myString = this.myString.concat(newString);
+        System.out.println("hi");
         return this.myString;
+        
     }
 }
