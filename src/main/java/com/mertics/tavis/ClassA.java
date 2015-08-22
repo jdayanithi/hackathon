@@ -5,10 +5,7 @@
  */
 package com.mertics.tavis;
 
-/**
- *
- * @author V496494
- */
+
 public class ClassA {
     
 }
