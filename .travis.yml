@@ -1,8 +1,6 @@
 
-
+sudo: required
 language: java
 script: mvn clean install
-script: mvn test
 jdk:
   - oraclejdk7
-
