@@ -1,8 +1,6 @@
 
 sudo: required
 language: java
-deploy:
-mvn install
 script: mvn clean install
 script: mvn test
 jdk:
