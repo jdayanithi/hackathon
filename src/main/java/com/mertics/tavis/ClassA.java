@@ -26,9 +26,10 @@ public class ClassA {
     }
 
     public String appendString(String newString) {
-
+        newString= newString+"Hi";
         this.myString = this.myString.concat(newString);
         System.out.println("hi1");
+        
         return this.myString;
     }
 }
